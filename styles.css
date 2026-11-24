@@ -198,6 +198,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .form-footer { display: flex; justify-content: space-between; gap: 28px; align-items: center; }
 .form-footer p { max-width: 430px; color: var(--steel); font-size: 12px; }
 .form-status { margin-top: 20px; padding: 15px; color: var(--green-deep); background: #e2f5eb; border-left: 3px solid var(--green); }
+.contact-emails { display: flex; flex-direction: column; gap: 6px; margin-top: 20px; }
 
 .site-footer { padding: 70px 0 24px; color: #b8c1c4; background: #111719; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr .65fr .8fr 1.2fr; gap: 60px; }
