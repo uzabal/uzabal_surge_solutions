@@ -1,0 +1,12 @@
+# Archivos de herramientas locales (no parte del sitio)
+.agents/
+skills-lock.json
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+*.swp
+
+# Documentos e imagenes de Referencia
+/docs
+docs/referencia/WhatsApp Unknown 2026-11-21 at 20.42.12.zip

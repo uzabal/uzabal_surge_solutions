@@ -1,0 +1,6 @@
+# UZABAL SURGE SOLUTIONS — robots.txt
+# URL derivada del remoto de GitHub. Cambiarla si se usa dominio propio.
+User-agent: *
+Allow: /
+
+Sitemap: https://uzabal.github.io/uzabal_surge_solutions/sitemap.xml
