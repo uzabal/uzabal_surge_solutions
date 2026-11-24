@@ -44,10 +44,10 @@ window.UZABAL_CONFIG = {
     productPrimary: "assets/images/products/g20-a-real.png",
     productSecondary: "assets/images/products/g20-c40-real.png",
     productTertiary: "assets/images/products/g2040-d10-real.png",
-    factSheetPrimary: null,           // assets/docs/ficha-g20-a.pdf
-    factSheetSecondary: null,         // assets/docs/ficha-g20-c40.pdf
-    factSheetTertiary: null,          // assets/docs/ficha-g2040-d10.pdf
-    quickGuide: null,                 // assets/docs/guia-rapida.pdf
+    factSheetPrimary: "assets/docs/UZABAL_Datasheet_G20-A_Oct2026.pdf",
+    factSheetSecondary: "assets/docs/UZABAL_Datasheet_G20-C40_Oct2026.pdf",
+    factSheetTertiary: "assets/docs/UZABAL_Datasheet_G2040-D10_Oct2026.pdf",
+    quickGuide: "assets/docs/USS_Guia_Rapida_Instalacion_Rev01_Nov2026.pdf",
     institutional: null,              // assets/images/institutional/
     installation: null,               // assets/images/installations/
     ogImage: "assets/images/og/og-image.png"

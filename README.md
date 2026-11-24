@@ -18,9 +18,13 @@ El análisis completo y las decisiones están en **`docs/referencia/ANALISIS_VIS
 - **Material de producto original:** recortes de `UZABAL_Datasheet.png` y de las fichas
   entregadas por Felipe, en `assets/images/products/*-real.png`. No se usan imágenes
   genéricas.
-- **Documentos:** los botones «Ver ficha técnica», «Descargar guía rápida» y los enlaces
-  de «Documentación» del footer están visibles pero **sin destino**, hasta recibir los
-  PDF oficiales. `assets/docs/` está vacío y listo para cargarlos (ver su README).
+- **Documentos oficiales:** las tres fichas técnicas y la guía rápida están en
+  `assets/docs/` y los botones/enlaces correspondientes ya abren esos PDF.
+- **Nosotros:** incluye origen, propósito, misión, visión y valores rectores tomados
+  del **Manual Integral de Identidad v1.1**. No se publicó información personal de
+  Felipe ni años de experiencia, clientes, certificaciones ni cobertura (no aprobados).
+- El Brief y el Manual se conservan en `docs/referencia/` como documentos internos,
+  sin enlace público.
 - Se conserva la identidad oficial: paleta `#00A651 / #006B3C / #20282D`, tipografías
   Exo 2 y Source Sans 3. Verde bosque y crema son derivados de la propuesta del cliente.
 
@@ -112,10 +116,10 @@ tocar el HTML para activarlos.
 | Fotografía de tormenta del hero | Sobrescribir `assets/images/hero/tormenta-real.png` con la foto definitiva. La ruta está en `config.js` → `assets.hero` / `assets.heroBackground`. |
 | Logotipo original | Guardar en `assets/images/logo/` y seguir su README. La marca actual es tipográfica (HTML/CSS). |
 | Foto de Felipe / institucional | Guardar en `assets/images/institutional/` y seguir su README (estructura oculta en «Nosotros»). |
-| Fichas técnicas / guía rápida | Guardar en `assets/docs/` y seguir su README; luego activar los botones y enlaces del footer. |
+| Actualizar fichas técnicas / guía rápida | Sobrescribir los PDF en `assets/docs/` conservando el nombre; no hace falta tocar el HTML. |
 | Dirección / zona de atención | Agregar en el bloque de contacto de `index.html` y en el footer **solo cuando se confirme**. |
 | Líneas comerciales activas | Hoy solo se publican **AC Protection** y **Engineering**. PV / Signal / Fire Protection quedan deliberadamente fuera. |
-| Info personal/profesional | Estructura reservada (oculta) en la sección Nosotros de `index.html`, bloque `.about__future`. |
+| Info personal/profesional | Estructura reservada (oculta) en la sección Nosotros de `index.html`, bloque `.about__future`. El texto institucional ya publicado sale del Manual de Identidad. |
 
 Mientras estos datos no se configuren, los botones **no generan enlaces erróneos**:
 permanecen desactivados o muestran "Pendiente de configurar".

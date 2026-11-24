@@ -387,10 +387,42 @@
 .manifesto__copy h2 { font-size: clamp(2.2rem, 4vw, 3.8rem); margin-bottom: 1.4rem; }
 .manifesto__quote { padding-left: 1rem; border-left: 2px solid var(--color-mint); color: #fff !important; font-weight: var(--fw-medium); }
 .manifesto__copy .text-link { margin-top: 1.2rem; border-bottom: 0; }
+
+.manifesto__facts {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem 2rem;
+  margin-top: 2rem;
+  padding-top: 1.75rem;
+  border-top: 1px solid var(--color-line-dark);
+}
+.manifesto__fact-label {
+  display: block;
+  margin-bottom: 0.45rem;
+  font-family: var(--font-heading);
+  font-size: 0.68rem;
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--color-mint);
+}
+.manifesto__fact p { margin: 0; font-size: 0.88rem; line-height: 1.6; color: rgba(255, 255, 255, 0.72); }
+
+.manifesto__values { margin-top: 1.75rem; }
+.manifesto__values ul { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.manifesto__values li {
+  padding: 0.35rem 0.8rem;
+  border: 1px solid var(--color-line-dark);
+  border-radius: var(--radius-pill);
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
 @media (max-width: 900px) {
   .manifesto__grid { grid-template-columns: 1fr; }
   .manifesto__icon { min-height: 180px; justify-items: start; }
   .manifesto__icon svg { width: 150px; height: 150px; }
+  .manifesto__facts { grid-template-columns: 1fr; gap: 1.25rem; }
 }
 
 /* BANDA CTA --------------------------------------------------------------- */

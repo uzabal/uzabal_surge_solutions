@@ -51,8 +51,6 @@
 .btn--secondary:hover { border-color: var(--color-accent); color: var(--color-accent-dark); }
 
 .btn[aria-disabled="true"], .btn:disabled { opacity: 0.5; pointer-events: none; box-shadow: none; }
-/* Botones pendientes: visibles con aspecto normal, sin acción ni redirección. */
-.btn--pending[aria-disabled="true"] { opacity: 1; cursor: default; }
 
 /* Etiquetas de sección --------------------------------------------------- */
 .eyebrow {

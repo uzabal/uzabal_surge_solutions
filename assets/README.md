@@ -9,7 +9,7 @@ assets/
 ├── css/                     Estilos modulares (tokens, base, layout, components, sections)
 ├── js/                      config.js (datos) + main.js (comportamiento)
 ├── icons/                   Solo README: los iconos están inlinados en index.html
-├── docs/                    Vacío + README: fichas técnicas y guía rápida oficiales
+├── docs/                    3 fichas técnicas PDF + guía rápida PDF (enlazadas)
 └── images/
     ├── logo/                Vacío + README: logotipo SVG/PNG oficial
     ├── hero/                tormenta-real.png (foto de referencia) + tormenta.svg (rayos)
@@ -25,7 +25,7 @@ assets/
 | Material | Acción |
 |---|---|
 | Logotipo oficial | Guardar en `images/logo/` y seguir `images/logo/README.md`. La marca actual es tipográfica (HTML/CSS), no depende de ningún archivo. |
-| Fichas técnicas / guía rápida | Guardar en `docs/` y seguir `docs/README.md`. Hoy los botones y enlaces están visibles **sin destino**, a la espera de los PDF oficiales. |
+| Actualizar fichas / guía | Sobrescribir los PDF en `docs/` conservando el nombre; no hace falta tocar el HTML. El Brief y el Manual están en `docs/referencia/` y no se enlazan públicamente. |
 | Fotos de producto de mayor calidad | Sobrescribir `images/products/*-real.png` conservando el nombre; no hace falta tocar el HTML. |
 | Foto institucional / de Felipe | Guardar en `images/institutional/` y seguir su README. La sección «Nosotros» tiene una estructura oculta para ese contenido. |
 | Fotos de instalaciones | Guardar en `images/installations/` y seguir su README. No publicar fotos genéricas como propias. |
