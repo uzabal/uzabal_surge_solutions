@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
-  <!-- Favicon temporal reemplazable -->
-  <rect width="64" height="64" rx="12" fill="#0A2E24"/>
-  <text x="31" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#FFFFFF">U</text>
-  <path d="M46 14 36 32h7l-4 14 12-20h-8l3-12z" fill="#4ED3A0"/>
-</svg>
