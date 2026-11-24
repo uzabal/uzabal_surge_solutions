@@ -199,6 +199,24 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .form-footer p { max-width: 430px; color: var(--steel); font-size: 12px; }
 .form-status { margin-top: 20px; padding: 15px; color: var(--green-deep); background: #e2f5eb; border-left: 3px solid var(--green); }
 .contact-emails { display: flex; flex-direction: column; gap: 6px; margin-top: 20px; }
+.mails { 
+  margin-bottom: 8px;
+}
+
+.mails a {
+  display: inline-flex;        /* Alinea ícono y texto en fila sin ocupar todo el ancho */
+  align-items: center;         /* Centra verticalmente ícono y texto */
+  gap: 8px;                    /* Espacio limpio entre el ícono y el correo */
+  text-decoration: none;       /* Quita el subrayado si no lo deseas */
+  color: inherit;              /* Hereda el color del texto padre */
+  line-height: 1;
+}
+
+.mails .material-symbols-outlined {
+  font-size: 20px;             /* Ajusta el tamaño según tu tipografía */
+  line-height: 1;              /* Evita alturas extra causadas por la fuente del ícono */
+  flex-shrink: 0;              /* Evita que el ícono se aplaste en pantallas estrechas */
+}
 
 .site-footer { padding: 70px 0 24px; color: #b8c1c4; background: #111719; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr .65fr .8fr 1.2fr; gap: 60px; }
