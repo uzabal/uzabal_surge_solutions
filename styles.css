@@ -175,17 +175,11 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .process-list p { color: var(--steel); font-size: 15px; }
 
 .about { padding: 0; color: white; background: #151c1f; overflow: hidden; }
-.about-grid { min-height: 650px; display: grid; grid-template-columns: 1fr 1fr; align-items: center; }
-.about-visual { position: relative; align-self: stretch; display: grid; place-items: center; border-left: 1px solid rgba(255,255,255,.08); border-right: 1px solid rgba(255,255,255,.08); overflow: hidden; }
-.big-bolt { color: var(--green); font-family: var(--display); font-size: 290px; line-height: 1; transform: skewX(-6deg); opacity: .9; }
-.about-visual > span { position: absolute; bottom: 46px; left: 42px; font-family: var(--display); font-size: 11px; letter-spacing: .24em; color: #718087; }
-.axis { position: absolute; background: rgba(255,255,255,.08); }
-.axis-a { width: 1px; height: 100%; left: 25%; }
-.axis-b { height: 1px; width: 100%; top: 25%; }
-.about-copy { padding: 80px 0 80px 80px; }
-.about-copy h2 { margin: 0 0 24px; font-family: var(--display); font-size: clamp(40px, 4.2vw, 59px); line-height: 1.04; }
-.about-copy > p:not(.section-kicker) { color: #bdc6c9; max-width: 520px; }
-.about-note { padding-left: 18px; border-left: 3px solid var(--green); }
+.about-grid { max-width: 980px; margin-inline: auto; padding-block: 90px; text-align: center; }
+.about-copy { padding: 0; }
+.about-copy h2 { margin: 0 0 24px; font-family: var(--display); font-size: clamp(40px, 4.2vw, 59px); line-height: 1.04; text-align: center; }
+.about-copy > p:not(.section-kicker) { color: #bdc6c9; max-width: 760px; margin-inline: auto; }
+.about-note { max-width: 760px; margin: 24px auto 0; padding-left: 18px; border-left: 3px solid var(--green); text-align: left; }
 .light-link { display: inline-block; margin-top: 24px; color: #8ce0b3; }
 
 .contact-grid { display: grid; grid-template-columns: .68fr 1.32fr; gap: 90px; align-items: start; }
@@ -289,9 +283,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .process-list { grid-template-columns: 1fr; }
   .process-list li { border-right: 0; border-bottom: 1px solid var(--border); }
   .process-list h3 { margin-top: 18px; }
-  .about-grid { min-height: auto; }
-  .about-visual { min-height: 430px; }
-  .about-copy { padding: 70px 0; }
+  .about-grid { padding-block: 70px; }
   .field-row { grid-template-columns: 1fr; gap: 0; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
 }
