@@ -43,18 +43,21 @@ tabs.forEach((tab, index) => {
 const recommendations = {
   entrada: {
     type: 'TIPO 1',
+    lpz: 'LPZ0B / LPZ1',
     stage: 'Protección primaria',
     product: 'Serie G20-A',
     text: 'Para el origen de la instalación y tableros principales expuestos a corrientes parciales de rayo.'
   },
   secundario: {
     type: 'TIPO 2',
+    lpz: 'LPZ1 / LPZ2',
     stage: 'Protección secundaria',
     product: 'Serie G20-C40',
     text: 'Para tableros principales o secundarios, frente a sobretensiones inducidas y de maniobra.'
   },
   final: {
     type: 'TIPO 3',
+    lpz: 'LPZ2 / LPZ3',
     stage: 'Protección terciaria',
     product: 'Serie G2040-D10',
     text: 'Para tableros finales y proximidad de equipos sensibles, como última etapa coordinada.'
@@ -66,6 +69,7 @@ selectorButtons.forEach(button => button.addEventListener('click', () => {
   selectorButtons.forEach(item => item.classList.toggle('active', item === button));
   const rec = recommendations[button.dataset.choice];
   document.querySelector('#rec-type').textContent = rec.type;
+  document.querySelector('#rec-lpz').textContent = rec.lpz;
   document.querySelector('#rec-stage').textContent = rec.stage;
   document.querySelector('#rec-product').textContent = rec.product;
   document.querySelector('#rec-text').textContent = rec.text;

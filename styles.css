@@ -124,6 +124,10 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .text-link span { display: inline-block; margin-left: 6px; transition: transform .2s ease; }
 .text-link:hover span { transform: translate(3px,-3px); }
 
+.uzabal_image_puesta_tierra { 
+  margin-bottom: 20px;
+}
+
 .selector { color: white; background: var(--graphite); }
 .selector-grid { display: grid; grid-template-columns: 1fr .78fr; gap: 100px; align-items: center; }
 .selector-copy > p:not(.section-kicker) { color: #bfc9cc; max-width: 620px; }
@@ -135,7 +139,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .recommendation::after { content: ""; position: absolute; width: 260px; height: 260px; right: -130px; bottom: -130px; border-radius: 50%; border: 1px solid var(--light); box-shadow: 0 0 0 50px #f8faf9, 0 0 0 100px #fbfcfb; }
 .rec-top { display: flex; justify-content: space-between; border-bottom: 1px solid var(--border); padding-bottom: 18px; font-size: 11px; text-transform: uppercase; letter-spacing: .12em; }
 .rec-top b { color: var(--green-deep); }
-.rec-bolt { margin: 34px 0 18px; color: var(--green); font-family: var(--display); font-size: 76px; line-height: 1; }
+.rec-lpz { margin: 34px 0 18px; color: var(--green-deep); font-family: var(--display); font-size: 28px; font-weight: 800; line-height: 1; letter-spacing: .02em; }
 .recommendation > p { color: var(--steel); }
 .recommendation h3 { margin: 4px 0 10px; font-family: var(--display); font-size: 42px; }
 .recommendation .button { margin-top: 18px; }
@@ -220,7 +224,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 
 .site-footer { padding: 70px 0 24px; color: #b8c1c4; background: #111719; }
 .footer-grid { display: grid; grid-template-columns: 1.4fr .65fr .8fr 1.2fr; gap: 60px; }
-.footer-brand img { width: 210px; filter: invert(1) grayscale(1) brightness(5); mix-blend-mode: screen; }
+.footer-brand img { width: 210px; height: auto; display: block; background: #fff; border-radius: 8px; }
 .footer-brand p { color: #718086; font-family: var(--display); font-size: 14px; }
 .footer-grid h3 { color: white; font-family: var(--display); font-size: 13px; text-transform: uppercase; letter-spacing: .1em; }
 .footer-grid > div:not(.footer-brand):not(.footer-note) a { display: block; margin: 9px 0; color: #9eaaae; text-decoration: none; font-size: 14px; }
